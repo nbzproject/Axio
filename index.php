@@ -13,9 +13,9 @@ if (isset($_POST['address']) and $_POST['address'] !== '' and isset($_POST['mess
 	$txt = "<html><head></head><body>";
 	
 	
-	$txt .= "<form action='' method='POST'>";
+	$txt .= "<form action='index.php' method='POST'>";
 	
-	$txt .= "<label>Контактный Email</label><br>";
+	$txt .= "<label>Email</label><br>";
                                                                             
 	$txt .= "<input type='email' name='address' value='' size='40' /><br>";
 	
