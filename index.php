@@ -13,15 +13,15 @@ if (isset($_POST['address']) and $_POST['address'] !== '' and isset($_POST['mess
 	$txt = "<html><head></head><body>";
 	
 	
-	$txt .= "<form action='index.php'>";
+	$txt .= "<form action='' method='POST'>";
 	
 	$txt .= "<label>Контактный Email</label><br>";
                                                                             
-	$txt .= "<input type='email' name='address' value='' size='40' />";
+	$txt .= "<input type='email' name='address' value='' size='40' /><br>";
 	
-	$txt .= "<label>Комментарии</label><br>";
+	$txt .= "<label>Сообщение</label><br>";
     
-	$txt .= "<textarea name='message' cols='40' rows='3'></textarea>";
+	$txt .= "<textarea name='message' cols='40' rows='3'></textarea><br>";
 	
 	$txt .= "<input type='submit' value='Послать' />";
 	
